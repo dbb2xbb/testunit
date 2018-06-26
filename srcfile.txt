@@ -1,0 +1,63 @@
+
+#【查询】【谁】【时间】的【文档】
+[D:kw_plz][D:user_q][W:0-8][D:user_db_w][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_w][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【时间】【谁】的【文档】
+[D:kw_plz][D:user_q][W:0-8][D:user_db_te][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_te][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【谁】【时间点】【至】【时间点】的【文档】
+[D:kw_plz][D:user_q][W:0-8][D:user_db_w][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_w][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+[D:kw_plz][D:user_q][W:0-8][D:user_db_w][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_w][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【时间点】【至】【时间点】【谁】的【文档】
+[D:kw_plz][D:user_q][W:0-8][D:user_db_te][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_te][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+[D:kw_plz][D:user_q][W:0-8][D:user_db_ts][D:kw_zhi][D:user_db_te][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_ts][D:kw_zhi][D:user_db_te][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【谁】【时间点】【和】【时间点】【之间】的【文档】
+[D:user_q][W:0-8][D:user_db_w][D:user_db_te][D:kw_qj][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_w][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_qj][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【时间点】【和】【时间点】【之间】【谁】的【文档】
+[D:user_q][W:0-8][D:user_db_te][D:kw_qj][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_qj][D:user_db_w][D:kw_de][D:user_doc]	QDOC_DB
+
+
+# 时间＋行为
+
+#【查询】【时间】【上传】的【文档】
+[D:kw_plz][D:user_q][W:0-8][D:user_db_te][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_te][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【上传】的【时间】的【任务】
+[D:kw_plz][D:user_q][W:0-8][D:user_upl_u][D:kw_de][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_upl_u][D:kw_de][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【时间点】【至】【时间点】【上传】的【文档】
+[D:kw_plz][D:user_q][D:user_db_te][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_te][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+[D:kw_plz][D:user_q][D:user_db_ts][D:kw_zhi][D:user_db_te][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_ts][D:kw_zhi][D:user_db_te][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【上传】的【时间点】【至】【时间点】的【文档】
+[D:user_q][D:user_upl_u][D:kw_de][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][D:user_upl_u][D:kw_de][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【时间点】【到】【时间点】【之间】【上传】的【文档】
+[D:user_q][W:0-8][D:user_db_te][D:kw_qj][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+[D:user_q][W:0-8][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_qj][D:user_upl_u][D:kw_de][D:user_doc]	QDOC_DB
+#【查询】【上传】的【时间点】【到】【时间点】【之间】的【文档】
+#[D:user_q][D:user_upl_u][D:kw_de][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_qj][D:kw_de][D:user_doc]	QDOC_DB【查看】=user_q
+*【谁】=user_db_w
+*【的】=kw_de
+*【任务】=user_tsk
+*【状态】=user_db_a
+*【时间】=user_db_te
+*【起始时间】=user_db_ts
+*【至】=kw_zhi
+*【之间】=kw_qj
+*【截至时间】=user_db_te
+
+#【查看】【谁】【的】【任务】  
+#【查看】【状态】【的】【任务】
+#【查看】【时间】【的】【任务】
+#【查看】【谁】【时间】【的】【任务】
+#【查看】【起始时间】【至】【截至时间】【的】【任务】
+#【查看】【起始时间】【至】【截至时间】【之间】【的】【任务】
+

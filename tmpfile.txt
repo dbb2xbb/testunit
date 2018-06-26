@@ -1,0 +1,13 @@
+#【查看】【谁】【的】【任务】  
+[D:user_q][D:user_db_w][D:kw_de][D:user_tsk]
+ #【查看】【状态】【的】【任务】
+[D:user_q][D:user_db_a][D:kw_de][D:user_tsk]
+ #【查看】【时间】【的】【任务】
+[D:user_q][D:user_db_te][D:kw_de][D:user_tsk]
+ #【查看】【谁】【时间】【的】【任务】
+[D:user_q][D:user_db_w][D:user_db_te][D:kw_de][D:user_tsk]
+ #【查看】【起始时间】【至】【截至时间】【的】【任务】
+[D:user_q][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_de][D:user_tsk]
+ #【查看】【起始时间】【至】【截至时间】【之间】【的】【任务】
+[D:user_q][D:user_db_ts][D:kw_zhi][D:user_db_te][D:kw_qj][D:kw_de][D:user_tsk]
+ 
